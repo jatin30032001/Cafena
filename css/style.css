@@ -271,7 +271,8 @@ section{
 .menu .box-container .box{
     padding:5rem;
     text-align: center;
-    border:var(--border);    
+    border:var(--border);   
+   overflow: hidden;
 }
 
 .menu .box-container .box img{
@@ -521,10 +522,12 @@ section{
     border:var(--border);
     margin:.3rem;
     border-radius: 50%;
+    transition: transform .7s ease-in-out;
 }
 
 .footer .share a:hover{
     background-color: var(--main-color);
+    transform: rotate(360deg);
 }
 
 .footer .links{
